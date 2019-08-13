@@ -1,0 +1,35 @@
+.clearfix::after {
+    content: " ";
+    display: block;
+    clear: both;
+  }
+
+  * {
+    font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
+  }
+  
+  body {
+      background-image: url("assets/images/main-background.png");
+  }
+  .container {
+      margin: 0 auto;
+      width: 960px;
+      color: #777777;
+      background-color: #ffffff;
+  }
+  
+  header>h1 {
+        color: #ffffff;
+        background-color: teal;
+        font-family: Georgia, Times, 'Times New Roman', serif;
+  }
+
+  header {
+    float: left;
+  }
+
+  nav {
+      display: inline;
+      background-color: #ffffff;
+      list-style: none;
+  }

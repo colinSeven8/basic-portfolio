@@ -145,8 +145,8 @@ h3, .sidebar, h2 {
 }
 
 .social {
-  width: 62px;
-  height: 62px;
+  width: 93px;
+  height: 93px;
   margin-top: 8px;
   margin-right: 5px;
   transition: width 0.25s ease;
@@ -154,8 +154,8 @@ h3, .sidebar, h2 {
 }
 
 .social:hover {
-  width: 65;
-  height: 65;
+  width: 97px;
+  height: 97px;
 }
 
 .social:last-child {
@@ -218,12 +218,13 @@ input[type=text], input[type=email], textarea {
   font-size: 14px;
 }
 
-input[type=message], textarea {
+input[type=textarea], textarea {
   height: 200px;
   width: 100%;
   border: 1px solid #ddd;
   padding: 0 10px;
   font-size: 14px;
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
 }
 
 input[type=submit] {
